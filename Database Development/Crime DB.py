@@ -19,9 +19,9 @@ cur.execute("""
             """)
 
 '''
-Creating enumerated data type for day_of_week to minimize RAM allocation.
+Creating enumerated data type for day_of_week to minimize disk space allocation.
 Minimized smaller intger values using smallint and float4.
-VARCHAR 60 was used to minimize memory allocation of descrtiption columns,
+VARCHAR 60 was used to minimize disk space allocation of descrtiption columns,
 which has a maximum string length of 58. 
 '''            
 
